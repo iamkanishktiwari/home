@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+				<title>Kanishk Tiwari</title></head>
+
+<body>
+
+				<center>
+
+				<h1>Party Age Validator</h1>
+
+		<input type="text" name="pername" id="pername" placeholder="Enter your Name" >	
+
+		<br>
+
+				 <input type="number" name="perage" id="perage" placeholder="Enter your age">
+
+				<br>
+
+		<input type="submit" onclick="fn1()">
+
+</center>
+
+	
+
+				<script>
+
+	
+
+function fn1(){
+
+	var urname=document.getElementById("pername").value;
+
+		var urage=document.getElementById("perage").value;
+
+if (urage>=18 && urage<100) {
+
+				alert(urname+" you can go to party")
+
+}else if (urage<=0 || urage>=100){
+
+				alert(urname + " please enter a valid age")
+
+} else{
+
+			alert(urname +" you cannot go to party")	
+
+}}
+
+				</script>
+
+</body>
+
+</html>
